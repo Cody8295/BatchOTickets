@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "BatchOTickets",
+  "description": "This extension was developed specifically for CTDLC call center to streamline outbound calls into our ticketing system, Kayako.",
+  "version": "1.0",
+	
+  "browser_action": {
+   "default_icon": "call.png",
+   "default_popup": "popup.html"
+  },
+
+  "permissions": [
+   "activeTab",
+   "tabs",
+   "*://*.ctdlc.org/*",
+   "*://10.12.20.101/*"
+   ]
+}
